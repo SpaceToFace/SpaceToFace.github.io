@@ -1,0 +1,53 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 62px);
+	grid-template-rows: repeat(7, 60px);
+	text-align: center;
+	margin: 0 auto;
+	width: 250px;
+}
+.row {
+	outline: 1px solid black;
+	text-align: center;
+	font-size: 30px;
+	line-height: 60px;
+}
+.button0 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	font-family: KoHo;
+	text-align:left;
+}
+.tlo-pomarancz {
+	background-color: orange;
+	color: white;
+	font-family: KoHo;
+}
+.tlo-szary {
+	background-color: #d9d9d9;
+	font-family: KoHo;
+}
+.wynik {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-family: KoHo;
+	font-size: 40px;
+}
+span {
+	content: "\2190";
+	content: "\00F7";
+} 
+.zero {
+	position:relative;
+	left: 25px;
+}
+.wynik-format {
+	position: relative;
+	right: 10px;
+	top: 55px;
+}
